@@ -1,7 +1,7 @@
 <h1 align="center">{ PAGE | 404 NOT FOUND }</h1>
 
 <div align="center">
-   Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
+   challenge completed by <a href="https://github.com/BricMichael">MichaelBric</a>.
 </div>
 
 <div align="center">
@@ -11,7 +11,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://bricmichael.github.io/Proyecto_1_404-not-found-master/" target='_blank'>
+    <a href="https://bricmichael.github.io/404-not-found-Page/" target='_blank'>
       Solution
     </a>
     <span> | </span>
