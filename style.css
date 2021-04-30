@@ -1,0 +1,77 @@
+h1{
+    font-family: Inconsolata;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: -0.08em;
+    margin:30px;
+}
+
+/* otra parde derecha */
+
+.grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0.5rem 2rem;
+}
+
+#content-image {
+    width: 50%;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.text{
+   width: 50%;
+}
+
+h2{
+    font-family: monospace;
+    font-size: 64px;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+}
+p{
+    font-family: monospace;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+}
+a{
+    font-family: Inconsolata;
+    padding: 15px;
+    color: #fff;
+    background: #333;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+#pie-pag {
+    font-size: 13px;
+    text-align: center;
+    margin-top: 1rem;
+    font-family: monospace;
+}
+
+@media screen and (max-width:700px) {
+    .grid{
+        flex-direction: column;
+    }
+    .text{
+        text-align: left;
+        margin-bottom: 1rem;
+    }
+    h2{
+        font-size: 40px;    
+      }
+    #content-image, .text {
+        width: 100%;
+    }
+    p{
+        font-size: 19px;
+    }
+}
